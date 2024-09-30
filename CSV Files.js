@@ -1,4 +1,4 @@
-// Parsing a CSV string into an array of objects
+// Parsing a CSV string into an array of object
 const csvData = `name,age
 Alice,25
 Bob,30
