@@ -4,6 +4,7 @@ Alice,25
 Bob,30
 Charlie,35`;
 
+
 const parsedData = csvData.split('\n').slice(1).map(row => {
   const [name, age] = row.split(',');
   return { name, age: Number(age) };
